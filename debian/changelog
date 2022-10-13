@@ -1,0 +1,41 @@
+node-chrome-trace-event (1.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Add ctype=nodejs to component(s)
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+    * /tags instead of /releases
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+  * Drop embedded @types/node module
+  * Replace embedded tslib by dependency to node-tslib
+  * New upstream version 1.0.3
+  * Update copyright
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 17:35:07 +0100
+
+node-chrome-trace-event (1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+  * Fix debian/watch
+  * Update embedded @types/node
+  * Install examples
+  * Embed component: tslib
+  * New upstream version 1.0.2
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 03 Feb 2020 21:50:48 +0100
+
+node-chrome-trace-event (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #908566)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 11 Sep 2018 14:30:37 +0530
