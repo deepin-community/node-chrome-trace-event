@@ -1,3 +1,10 @@
+node-chrome-trace-event (1.0.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-chrome-trace-event: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 11:05:37 +0000
+
 node-chrome-trace-event (1.0.3-1) unstable; urgency=medium
 
   * Team upload
